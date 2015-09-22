@@ -12,10 +12,10 @@
        url('../assets/fonts/BakersfieldBold.svg#d05b123431d6c537811e14ab8ea753d0') format('svg'); /* Legacy iOS */
 
   font-style:   normal;
-  font-weight:  700;
+  font-weight:  normal;
 }
 
-@font-face {
+/*@font-face {
   font-family: 'Bakersfield';
   src: url('../assets/fonts/BakersfieldLight.eot');
   src: url('../assets/fonts/BakersfieldLight.eot?#iefix') format('embedded-opentype'),
@@ -25,7 +25,7 @@
 
   font-style:   normal;
   font-weight:  300;
-}
+}*/
 
 @font-face {
   font-family: 'Nexa';
@@ -48,7 +48,7 @@
        url('../assets/fonts/nexa-light.svg#8daeb39b16ba4fbde275db0ba71a5206') format('svg'); /* Legacy iOS */
 
   font-style:   normal;
-  font-weight:  300;
+  font-weight:  normal;
 }
 
 $light: #fbf5f3;
