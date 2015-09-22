@@ -1,0 +1,36 @@
+.nav__container {
+	left:0;
+	margin-top: $banner-height / 2;
+	padding: $standard-padding;
+	position:relative;
+	top:50%;
+}
+.nav {
+	list-style:none;
+	margin-left:5px;
+
+	a {
+		color: $green;
+		letter-spacing:3px;
+	}
+	li {
+		margin-bottom:0.4em;
+		text-transform:uppercase;
+	}
+	span {
+		display:inline-block;
+		fill: $grey;
+		margin-right:10px;
+		width:1rem;
+	}
+	.svg {
+		margin-top:-3px;
+		vertical-align:middle;
+	}
+}
+.nav--light a {
+	color: $light;
+}
+.nav--light span {
+	fill: $light;
+}

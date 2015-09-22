@@ -1,0 +1,21 @@
+.page--blog {
+	.page__title {
+		color: $light;
+	}
+	.section--left {
+		background: $purple;
+	}
+	.page__content {
+		.permalink {
+			color: $purple;
+		}
+		.subtitle {
+			color: $green;
+			text-align:center;
+		}
+	}
+}
+
+.color-green {
+	color: $green;
+}

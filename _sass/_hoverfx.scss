@@ -1,0 +1,42 @@
+.nav a, .page__content a, .footer a {
+	padding-bottom: 4px;
+	position: relative;
+	&::after {
+		background: $dark;
+		bottom:0;
+		content: "";
+		height:2px;
+		left:0;
+		position:absolute;
+		right:100%;
+		-webkit-transition: right 0.35s ease-in-out;
+		transition: right 0.35s ease-in-out;
+	}
+	&:hover::after {
+		right: 3px; // letter-spacing fix
+		-webkit-transition: right 0.35s ease-in-out;
+		transition: right 0.35s ease-in-out;
+	}
+}
+// particular colours
+.nav a::after, .page__content .permalink::after {
+	background: $green;
+}
+.nav--light a::after {
+	background: $light;
+}
+.page--about .page__content a::after {
+	background: $grey;
+}
+/*.page__content .subtitle a::after {
+	background: $purple;
+}*/
+
+.page--blog .page__content {
+	.subtitle a::after {
+		background: $green;
+	}
+	.permalink::after {
+		background: $purple;
+	}
+}

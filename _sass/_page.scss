@@ -1,0 +1,92 @@
+// building blocks
+.page {
+	font-size:0;
+	width:100%;
+	height:100%;
+}
+.post {
+	padding: 4em;
+}
+.section {
+	display:inline-block;
+	font-size: $base-font-size;
+	vertical-align:top;
+	width:50%;
+	height:100vh;
+	position:relative;
+}
+.section--left {
+	position:fixed;
+}
+.section--right {
+	margin-left:50%;
+}
+
+// content styles
+.page__title {
+	color: $purple;
+	display:block;
+	font-size:4.6em;
+	font-weight:700;
+	padding:$standard-padding;
+	text-transform:lowercase;
+}
+
+@media (min-width:770px) {
+	.page__title {
+		@include add-top-margin(absolute);
+		line-height:1rem;
+	}
+}
+.page--index .page__title {
+	@include add-top-margin(absolute);
+	line-height:1rem;
+}
+
+.page__content {
+	h1, h2, h3, h4, h5, h6,
+    p, blockquote, pre,
+    ul, ol, dl, figure, img,
+    %vertical-rhythm {
+        margin-bottom: $spacing-unit;
+    }
+
+    /*li {
+        > ul,
+        > ol {
+            margin-bottom: 0;
+        }
+    }*/
+	h1 {
+		font-size:3em;
+		letter-spacing:3px;
+	}
+	h2 {
+		font-size:2.2em;
+		letter-spacing:4px;
+		text-transform:uppercase;
+	}
+	h3 {
+		font-size:1.8em;
+		letter-spacing:4px;
+		text-transform:uppercase;
+	}
+	h4 {
+		font-size:1.2em;
+		letter-spacing:4px;
+		text-transform:uppercase;
+	}
+	h5 {
+		font-size:1em;
+		letter-spacing:2px;
+		text-transform:uppercase;
+	}
+	.permalink {
+		color: $green;
+	}
+	.subtitle {
+		color: $purple;
+		text-align:center;
+	}
+}
+

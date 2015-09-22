@@ -1,0 +1,43 @@
+@media (max-width:770px) {
+	.page--index .nav__container {
+		position:fixed;
+		z-index:2;
+	}
+	.page:not(.page--index) .nav__container {
+		margin-top: 0;
+		position:absolute;
+		top:auto;
+		bottom:0;
+	}
+	.page__title {
+		font-size:3.2em;
+	}
+	.post {
+		padding:4em 2em;
+	}
+	.section {
+		width:100%;
+	}
+	.section--left {
+		position:relative;
+		height:50vh;
+	}
+	.section--right {
+		height:auto;
+		margin-left:0;
+		min-height:50vh;
+	}
+	.page--about .section--right {
+		@include vertical-center-parent(left, 50vh);
+	}
+	.page--about .page__content {
+		@include vertical-center(true);
+	}
+
+	.site__social {
+		bottom:40px;
+		margin-top:0;
+		position:fixed;
+		top:auto;
+	}
+}

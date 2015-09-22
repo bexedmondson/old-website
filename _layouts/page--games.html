@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<ul class="slider slider--games page__content">
+    {% for post in site.categories['games'] %}
+    	<li class="slider__single">
+    		<div class="slider__inner">
+   				<h3 class="subtitle">{{ post.title }}</h3>
+    			<img src="{{ post.imageurl }}">
+    			<h4><a href="{{ post.gameurl }}" class="permalink" target="_blank">View on Github</a></h4>
+    		    {{ post.content }}
+    		</div>
+    	</li>
+    {% endfor %}
+</ul>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".slider--games").lightSlider({
+            item: 1,
+            slideMove: 1,
+            slideMargin: 0,
+            prevHtml: '<img src="/assets/bullet.svg">',
+            nextHtml: '<img src="/assets/bullet.svg">',
+            vertical:true,
+            verticalHeight:'auto',
+            pager: false,
+            currentPagerPosition: 'first',
+			enableDrag: false
+           // responsive : [],
+        });
+    });
+</script>

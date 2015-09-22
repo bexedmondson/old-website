@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+  	<div class="page page--{{ page.type }}">
+  		<div class="section section--left">
+  			{% include header.html %}
+  		</div>
+  		<div class="section section--right">
+    		{{ content }}
+    	</div>
+    </div>
+    {% if page.type == 'index' %}
+      <footer class="footer">
+        Site by <a href="http://www.woodward.sh" target="_blank">Hannah Woodward</a>
+      </footer>
+    {% endif %}
+  </body>
+
+</html>

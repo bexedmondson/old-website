@@ -1,0 +1,52 @@
+.page--about {
+	.page__title {
+		color: $green;
+	}
+	.section--right {
+		background: $grey;
+	}
+	.page__content {
+		ul {
+			list-style:none;
+			margin-bottom:0;
+			margin-left:4.5em;
+		}
+		li {
+			color: $purple;
+			font-size: $base-font-bigger;
+			letter-spacing:4px;
+			line-height: 0.875em;
+			margin-bottom: 1.6em;
+			text-transform:lowercase;
+		}
+	}
+}
+
+@media (max-width:1180px) {
+	.page--about .page__content {
+		ul {
+			margin-left:3em;
+		}
+		li {
+			font-size: $base-font-bigger * 0.75;
+			letter-spacing: 4px * 0.75;
+		}
+	}
+}
+@media (max-width:930px) {
+	.page--about .page__content {
+		ul {
+			margin-left:1.5rem;
+		}
+		li {
+			font-size: $base-font-bigger * 0.65;
+			letter-spacing: 4px * 0.65;
+		}
+	}
+}
+
+@media (min-width:770px) {
+	.page--about .page__content {
+		@include add-top-margin(relative);
+	}
+}
