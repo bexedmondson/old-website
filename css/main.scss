@@ -4,25 +4,53 @@
 @charset "utf-8";
 
 @font-face {
-  font-family: Theano;
-  src: url(../fonts/Theano-Modern/TheanoModern-Regular.ttf);
-  font-style: normal;
+  font-family: 'Bakersfield';
+  src: url('../assets/fonts/BakersfieldBold.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/BakersfieldBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/BakersfieldBold.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/BakersfieldBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/BakersfieldBold.svg#d05b123431d6c537811e14ab8ea753d0') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  700;
 }
+
 @font-face {
-  font-family: Bakersfield;
-  src: url(../fonts/bakersfield/BakersfieldLight.ttf);
-  font-style: normal;
+  font-family: 'Bakersfield';
+  src: url('../assets/fonts/BakersfieldLight.eot');
+  src: url('../assets/fonts/BakersfieldLight.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/BakersfieldLight.woff') format('woff'),
+       url('../assets/fonts/BakersfieldLight.ttf')  format('truetype'),
+       url('../assets/fonts/BakersfieldLight.svg#82062e95b40544259d134f58b51fc4ef') format('svg');
+
+  font-style:   normal;
+  font-weight:  300;
 }
+
 @font-face {
-  font-family: Bakersfield;
-  src: url(../fonts/bakersfield/BakersfieldBold.ttf);
-  font-style: bold;
+  font-family: 'Nexa';
+  src: url('../assets/fonts/nexa-bold.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/nexa-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/nexa-bold.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/nexa-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/nexa-bold.svg#7a6e0a27b48926c5216e096daa3e1570') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  700;
 }
+
 @font-face {
-  font-family: Nexa;
-  src: url(../fonts/nexa/nexa-light.otf);
-  font-style: normal;
+  font-family: 'Nexa';
+  src: url('../assets/fonts/nexa-light.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/nexa-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/nexa-light.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/nexa-light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/nexa-light.svg#8daeb39b16ba4fbde275db0ba71a5206') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  300;
 }
+
 $light: #fbf5f3;
 $green: #4cb5ae;
 $purple: #522b47;
@@ -30,7 +58,7 @@ $grey: #cecece;
 $dark: #000;
 
 $banner-height: 130px;
-$base-font-family: Nexa, serif;
+$base-font-family: Nexa, sans-serif;
 $heading-font-family: Bakersfield, sans-serif;
 $base-font-size:   16px;
 $base-font-bigger: 24px;
