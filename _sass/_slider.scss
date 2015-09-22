@@ -19,6 +19,8 @@
 }
 
 .slider__single {
+	overflow:hidden;
+
 	img {
 		max-height:230px;
 		max-width:80%;

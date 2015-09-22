@@ -81,6 +81,9 @@ pre {
 }
 @mixin add-top-margin($position) {
   margin-top:-$banner-height;
+  @media (max-width:700px) {
+    margin-top:-$banner-mobile;
+  }
   position:$position;
   top:50%;
 }
