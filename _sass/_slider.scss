@@ -19,16 +19,16 @@
 }
 
 .slider__single {
-	@include vertical-center-parent();
-
 	img {
 		max-height:230px;
 		max-width:80%;
 	}
 }
 .slider__inner {
-	@include vertical-center(true);
+	padding: $standard-padding;
+	margin:0 auto;
 	max-width:400px;
+	text-align:center;
 	width:100%;
 
 	img, h3 {
@@ -36,6 +36,16 @@
 	}
 	h4 {
 		margin-bottom:$spacing-unit - 10px;
+	}
+}
+
+@media (min-width:770px) {
+	.slider__single {
+		@include vertical-center-parent();
+	}
+	.slider__inner {
+		@include vertical-center(true);
+		padding:0;
 	}
 }
 

@@ -10,7 +10,7 @@
 		bottom:0;
 	}
 	.page__title {
-		font-size:3.2em;
+		font-size:3em;
 	}
 	.post {
 		padding:4em 2em;
@@ -39,5 +39,9 @@
 		margin-top:0;
 		position:fixed;
 		top:auto;
+
+		.svg {
+			width:2rem;
+		}
 	}
 }
