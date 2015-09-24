@@ -11,6 +11,14 @@ layout: default
     		    {{ post.content }}
     		</div>
     	</li>
+        <li class="slider__single">
+            <div class="slider__inner">
+                <h3 class="subtitle">{{ post.title }}</h3>
+                <img src="{{ post.imageurl }}">
+                <h4><a href="{{ post.gameurl }}" class="permalink" target="_blank">View on Github</a></h4>
+                {{ post.content }}
+            </div>
+        </li>
     {% endfor %}
 </ul>
 
@@ -23,7 +31,7 @@ layout: default
             prevHtml: '<img src="/assets/bullet.svg">',
             nextHtml: '<img src="/assets/bullet.svg">',
             vertical:true,
-            verticalHeight:'auto',
+            verticalHeight:'100%',
             pager: false,
             currentPagerPosition: 'first',
 			enableDrag: false

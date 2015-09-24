@@ -1,3 +1,13 @@
+.lSSlideOuter.vertical {
+	@include flexbox();
+	//@include flex-direction(column);
+	//@include flex-wrap(wrap);
+	@include justify-content(center);
+	@include align-items(center);
+	height:100%;
+	width:100%;
+}
+
 .lSAction {
 	a {
 		background:none;
@@ -19,15 +29,15 @@
 }
 
 .slider__single {
-	overflow:hidden;
-
+	@include flexbox();
+	@include align-items(center);
 	img {
 		max-height:230px;
 		max-width:80%;
 	}
 }
 .slider__inner {
-	padding: $standard-padding;
+	padding: 4em 0;
 	margin:0 auto;
 	max-width:400px;
 	text-align:center;
@@ -42,11 +52,13 @@
 }
 
 @media (min-width:770px) {
-	.slider__single {
-		@include vertical-center-parent();
+	.lSAction {
+		.lSPrev, .lSNext {
+			position:fixed;
+			left:75% !important;
+		}
 	}
 	.slider__inner {
-		@include vertical-center(true);
 		padding:0;
 	}
 }
