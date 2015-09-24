@@ -568,11 +568,8 @@ pre {
     margin-bottom: 22.5px; } }
 @media (max-width: 770px) {
   .page--index .page__title {
-    bottom: 0;
-    margin-top: 0;
-    margin-bottom: 40px;
-    position: absolute;
-    top: auto; }
+    margin-top: -120px;
+    line-height: 1em; }
 
   .site__banner {
     height: 80px;
@@ -632,3 +629,6 @@ pre {
     top: auto; }
     .site__social .svg {
       width: 2.8rem; } }
+@media (max-width: 550px) {
+  .slider {
+    overflow: hidden; } }

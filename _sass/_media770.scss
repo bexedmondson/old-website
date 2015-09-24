@@ -1,10 +1,7 @@
 @media (max-width:770px) {
 	.page--index .page__title {
-		bottom:0;
-		margin-top:0;
-		margin-bottom: $banner-mobile / 2;
-		position:absolute;
-		top:auto;
+		margin-top: -120px;
+		line-height: 1em;
 	}
 	.site__banner {
 		height: $banner-mobile;
@@ -58,5 +55,11 @@
 		.svg {
 			width:2.8rem;
 		}
+	}
+}
+
+@media (max-width:550px) {
+	.slider {
+		overflow:hidden;
 	}
 }
