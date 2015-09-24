@@ -598,16 +598,14 @@ pre {
     width: 100%; }
 
   .section--left {
-    height: 50%;
-    position: absolute; }
+    height: 50vh;
+    position: relative; }
 
   .section--right {
     height: auto;
     margin-left: 0;
-    margin-top: 50%;
-    min-height: 50%;
-    overflow: hidden;
-    position: absolute; }
+    min-height: 50vh;
+    overflow: hidden; }
 
   .page--about .section--right {
     height: 50vh;
