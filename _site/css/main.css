@@ -598,14 +598,16 @@ pre {
     width: 100%; }
 
   .section--left {
-    position: relative;
-    height: 50vh; }
+    height: 50%;
+    position: absolute; }
 
   .section--right {
     height: auto;
     margin-left: 0;
-    min-height: 50vh;
-    overflow: hidden; }
+    margin-top: 50%;
+    min-height: 50%;
+    overflow: hidden;
+    position: absolute; }
 
   .page--about .section--right {
     height: 50vh;
@@ -629,6 +631,6 @@ pre {
     top: auto; }
     .site__social .svg {
       width: 2.8rem; } }
-@media (max-width: 550px) {
-  .slider {
-    overflow: hidden; } }
+@media (max-width: 500px) {
+  .page--index .page__title {
+    margin-top: -240px; } }
