@@ -49,13 +49,9 @@
 		height:auto;
 		margin-left:0;
 	}
-	/*.page--about .section--right {
-		@include vertical-center-parent(left, 50vh);
+	.page--about .section--right {
+		min-height:300px;
 	}
-	.page--about .page__content {
-		@include vertical-center(true);
-	}*/
-
 	.site__social {
 		bottom:40px;
 		margin-top:0;
@@ -68,8 +64,8 @@
 	}
 }
 
-@media (max-width:500px) {
+@media (max-width:400px) {
 	.page--index .page__title {
-		margin-top:-140px;
+		margin-top:-160px;
 	}
 }
