@@ -19,19 +19,6 @@ html, body {
   font-style:   normal;
   font-weight:  normal;
 }
-
-/*@font-face {
-  font-family: 'Bakersfield';
-  src: url('../assets/fonts/BakersfieldLight.eot');
-  src: url('../assets/fonts/BakersfieldLight.eot?#iefix') format('embedded-opentype'),
-       url('../assets/fonts/BakersfieldLight.woff') format('woff'),
-       url('../assets/fonts/BakersfieldLight.ttf')  format('truetype'),
-       url('../assets/fonts/BakersfieldLight.svg#82062e95b40544259d134f58b51fc4ef') format('svg');
-
-  font-style:   normal;
-  font-weight:  300;
-}*/
-
 @font-face {
   font-family: 'Nexa';
   src: url('../assets/fonts/nexa-bold.eot'); /* IE9 Compat Modes */
@@ -43,7 +30,6 @@ html, body {
   font-style:   normal;
   font-weight:  700;
 }
-
 @font-face {
   font-family: 'Nexa';
   src: url('../assets/fonts/nexa-light.eot'); /* IE9 Compat Modes */
