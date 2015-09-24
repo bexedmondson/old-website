@@ -94,6 +94,7 @@
         </li>
     
 </ul>
+<a href="#" class="slider__back-to-top">Back to top <span>&#65085;</span></a>
 
 <script type="text/javascript">
     $(document).ready(function() {
@@ -110,6 +111,12 @@
 			enableDrag: false
            // responsive : [],
         });
+    });
+    $('.slider__back-to-top').on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $('body').offset().top
+        }, 350);
     });
 </script>
 

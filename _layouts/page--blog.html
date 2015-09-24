@@ -20,6 +20,7 @@ layout: default
     {% endfor %}
     {% endcomment %}
 </ul>
+<a href="#" class="slider__back-to-top">Back to top</a>
 
 <script type="text/javascript">
     $(document).ready(function() {
@@ -36,5 +37,11 @@ layout: default
 			enableDrag: false
            // responsive : [],
         });
+    });
+    $('.slider__back-to-top').on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $('body').offset().top
+        }, 350);
     });
 </script>

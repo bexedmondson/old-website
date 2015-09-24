@@ -50,6 +50,13 @@
 		margin-bottom:$spacing-unit - 10px;
 	}
 }
+.slider__back-to-top {
+	font-weight:700;
+	padding:1rem;
+	position:absolute;
+	right:0;
+	top:0;
+}
 
 @media (min-width:770px) {
 	.lSAction {
