@@ -30,21 +30,6 @@
 		transform: rotate(90deg);
 	}
 }
-
-@media max-width(770px) {
-	.lSAction {
-		.lSPrev {
-			top:50%;
-			left:0 !important;
-		}
-		.lSPrev {
-			top:50%;
-			left: auto !important;
-			right:0 !important;
-		}
-	}
-}
-
 .slider__single {
 	@include flexbox();
 	@include align-items(center);

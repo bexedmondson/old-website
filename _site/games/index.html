@@ -98,7 +98,7 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-        $(".slider--games").lightSlider({
+        $(".slider").lightSlider({
             item: 1,
             slideMove: 1,
             slideMargin: 0,
@@ -108,16 +108,7 @@
             verticalHeight:'100%',
             pager: false,
             currentPagerPosition: 'first',
-			enableDrag: false,
-            responsive : [
-                {
-                    breakpoint:770,
-                    settings: {
-                        vertical: false,
-                        adaptiveHeight: true,
-                    }
-                }
-            ],
+			enableDrag: false
         });
     });
     $('.slider__back-to-top').on('click', function(e) {
@@ -133,4 +124,5 @@
     
   </body>
 
+  <script src="/js/scripts.js"></script>
 </html>
