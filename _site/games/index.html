@@ -108,9 +108,14 @@
             verticalHeight:'100%',
             pager: false,
             currentPagerPosition: 'first',
-            enableTouch: false,
 			enableDrag: false
-           // responsive : [],
+            responsive : [{
+                breakpoint:800,
+                settings: {
+                    vertical: false,
+                    adaptiveHeight: true
+                }
+            }],
         });
     });
     $('.slider__back-to-top').on('click', function(e) {
