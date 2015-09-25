@@ -7,4 +7,4 @@ nav: light
 gameurl: http://www.google.co.uk
 imageurl: /assets/games/carmilla.jpg
 ---
-Pong (marketed as PONG) is one of the earliest arcade video games and the very first sports arcade video game. it is a tennis sports game featuring simple two-dimensional graphics. While other arcade video games such as Computer space came before it, Pong was one of the first video games to reach mainstream popularity.
+Set in the gap between seasons 1 and 2 of the Carmilla webseries, The Carmilla Game is an unofficial visual novel that lets players experience the adventures of the main characters in the Styrian wilderness. From bears to riddles to just a little bit of heartbreak, players get to make decisions and watch as the consequences unfold. The game is currently in development, and will be free to play on Windows, Mac OSX, and Linux.
