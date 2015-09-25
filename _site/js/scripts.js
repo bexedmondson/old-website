@@ -16,9 +16,9 @@ $(document).ready(function(){
     ]
   });
 });
-$('.slider__back-to-top').on('click', function(e) {
+/*$('.slider__back-to-top').on('click', function(e) {
     e.preventDefault();
     $('html, body').animate({
         scrollTop: $('body').offset().top
     }, 350);
-});
+});*/

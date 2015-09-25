@@ -49,13 +49,14 @@
 		max-width:80%;
 	}
 }
-.slider__back-to-top {
+/*.slider__back-to-top {
+	display:none;
 	font-weight:700;
 	padding:1rem;
 	position:fixed;
 	right:0;
 	top:0;
-}
+}*/
 
 @media (max-height:700px) {
 	.slider__single img {
