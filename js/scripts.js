@@ -10,6 +10,7 @@ $(document).ready(function() {
         pager: false,
         currentPagerPosition: 'first',
         enableDrag: false,
+        enableTouch: false,
         responsive: [
             {
                 breakpoint:770,

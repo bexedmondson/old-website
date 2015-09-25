@@ -59,6 +59,11 @@
 	right:0;
 	top:0;
 }
+@media (max-width:770px) {
+	.slider__single {
+		overflow-y:scroll;
+	}
+}
 
 @media (min-width:770px) {
 	.lSAction {
