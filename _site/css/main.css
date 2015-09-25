@@ -105,10 +105,10 @@ pre {
   .icon > svg path {
     fill: #cecece; }
 
-.nav a, .page__content a:not(.slick-nav), .footer a {
+.nav a, .page__content a, .footer a {
   padding-bottom: 4px;
   position: relative; }
-  .nav a::after, .page__content a:not(.slick-nav)::after, .footer a::after {
+  .nav a::after, .page__content a::after, .footer a::after {
     background: #000;
     bottom: 0;
     content: "";
@@ -118,7 +118,7 @@ pre {
     right: 100%;
     -webkit-transition: right 0.35s ease-in-out;
     transition: right 0.35s ease-in-out; }
-  .nav a:hover::after, .page__content a:not(.slick-nav):hover::after, .footer a:hover::after {
+  .nav a:hover::after, .page__content a:hover::after, .footer a:hover::after {
     right: 3px;
     -webkit-transition: right 0.35s ease-in-out;
     transition: right 0.35s ease-in-out; }
@@ -536,27 +536,10 @@ pre {
 .slick-next {
   right: 12px; }
 
-@media (min-width: 770px) {
-  .slick-button {
-    left: 50%;
-    margin-left: -14px;
-    margin-top: 0; }
-
-  .slick-prev {
-    top: 14px;
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg); }
-
-  .slick-next {
-    bottom: 14px;
-    margin-top: 0;
-    top: auto;
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg); } }
 .slider__inner {
   padding: 3em 45px;
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 600px;
   text-align: center;
   width: 100%; }
   .slider__inner h3 {
@@ -589,6 +572,23 @@ pre {
 
   .slider__inner h4 {
     margin-bottom: 22.5px; } }
+@media (min-width: 770px) {
+  .slick-button {
+    left: 50%;
+    margin-left: -14px;
+    margin-top: 0; }
+
+  .slick-prev {
+    top: 14px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+  .slick-next {
+    bottom: 14px;
+    margin-top: 0;
+    top: auto;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg); } }
 @media (max-width: 770px) {
   .page--index .page__title {
     margin-top: -130px;
