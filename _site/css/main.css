@@ -426,6 +426,7 @@ pre {
     color: #4cb5ae;
     letter-spacing: 3px; }
   .nav li {
+    height: 24px;
     margin-bottom: 0.4em;
     text-transform: uppercase; }
   .nav span {
@@ -517,6 +518,9 @@ pre {
   height: 100%;
   width: 100%; }
 
+.slider {
+  min-height: 100%; }
+
 .lSAction a {
   background: none; }
 .lSAction .lSPrev, .lSAction .lSNext {
@@ -560,7 +564,7 @@ pre {
 .slider__back-to-top {
   font-weight: 700;
   padding: 1rem;
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0; }
 
@@ -570,7 +574,10 @@ pre {
     left: 75% !important; }
 
   .slider__inner {
-    padding: 0; } }
+    padding: 0; }
+
+  .slider__back-to-top {
+    display: none; } }
 @media (max-height: 700px) {
   .slider__single img {
     max-height: 175px; }
