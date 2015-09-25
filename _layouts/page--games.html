@@ -35,14 +35,16 @@ layout: default
             verticalHeight:'100%',
             pager: false,
             currentPagerPosition: 'first',
-			enableDrag: false
-            responsive : [{
-                breakpoint:800,
-                settings: {
-                    vertical: false,
-                    adaptiveHeight: true
+			enableDrag: false,
+            responsive : [
+                {
+                    breakpoint:770,
+                    settings: {
+                        vertical: false,
+                        adaptiveHeight: true,
+                    }
                 }
-            }],
+            ],
         });
     });
     $('.slider__back-to-top').on('click', function(e) {
