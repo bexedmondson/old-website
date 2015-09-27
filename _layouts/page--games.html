@@ -11,14 +11,6 @@ layout: default
     		    {{ post.content }}
     		</div>
     	</li>
-        <li class="slider__single">
-            <div class="slider__inner">
-                <h3 class="subtitle">{{ post.title }}</h3>
-                <img src="{{ post.imageurl }}">
-                <h4><a href="{{ post.gameurl }}" class="permalink" target="_blank">View on Github</a></h4>
-                {{ post.content }}
-            </div>
-        </li>
     {% endfor %}
 </ul>
 {% comment %}<a href="#" class="slider__back-to-top">Back to top <span>&#65085;</span></a>{% endcomment %}

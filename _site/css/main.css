@@ -401,10 +401,10 @@ pre {
   background: #cecece;
   bottom: 0;
   color: #fbf5f3;
-  height: 40px;
+  height: 32px;
   letter-spacing: 0.5px;
-  line-height: 40px;
-  padding: 0 10px;
+  line-height: 32px;
+  padding: 0 5px;
   position: fixed;
   text-align: right;
   text-transform: uppercase;
@@ -514,7 +514,8 @@ pre {
   width: 100%; }
 
 .slick-list {
-  margin: 2em 0; }
+  margin: 2em 0;
+  width: 100%; }
 
 .slick-button {
   background: none;
