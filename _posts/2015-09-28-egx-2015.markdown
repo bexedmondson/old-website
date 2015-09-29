@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "EGX 2015"
-subtitle:  "Six hours at the last day of EGX"
+title: "blog"
+subtitle:  "EGX 2015"
 date:  2015-09-28 21:04:10
 categories: blog
 type: blog
