@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EGX 2015"
+title: "blog"
 subtitle:  "Six hours at the last day of EGX"
 date:  2015-09-28 21:04:10
 categories: blog
@@ -15,13 +15,13 @@ Starting this blog off in spectacular fashion, here’s my wrap-up of my day at 
 
 ![I should probably start a train photography business…](/assets/blog/egx2015/traincollage.png "I should probably start a train photography business…")
 
-First off, what an atmosphere. It was so great to be around thousands of people who loved games as much as me, and the buzz was palpable. While there was an (understandably) enormous amount of hype around the big budget studio releases like Call of Duty: Black Ops 3 and Assassin’s Creed: Syndicate, people seemed just as willing to try out all the indie games in the EGX Rezzed Zone and the Leftfield Collection. I didn’t see quite as much cosplay as at London ComicCon in August, but EGX was host to the UK Preliminaries for the European Cosplay Gathering so I saw a fair bit! 
+First off, what an atmosphere. It was so great to be around thousands of people who loved games as much as me, and the buzz was palpable. While there was an (understandably) enormous amount of hype around the big budget studio releases like Call of Duty: Black Ops 3 and Assassin’s Creed: Syndicate, people seemed just as willing to try out all the indie games in the EGX Rezzed Zone and the Leftfield Collection. I didn’t see quite as much cosplay as at London ComicCon in August, but EGX was host to the UK Preliminaries for the European Cosplay Gathering so I saw a fair bit!
 
 ![Not pictured: four separate Lara Crofts that had just passed.](/assets/blog/egx2015/jokercrowd.jpg "Not pictured: four separate Lara Crofts that had just passed.")
 
 ## Careers Bar
 
-The reason I went in the first place, however, was the Careers Bar, run by [GamesIndustry.biz](http://www.gamesindustry.biz/) and [Ukie](http://ukie.org.uk/). I started off my day speaking to Creative Assembly, who were very welcoming and gave me some good advice I hadn’t heard before: namely, to create more technical C++ programmes alongside the full games I’m working on. I’m hoping that working on my final year project will give me a few opportunities to do that, and I’ve got one boids simulation ready to start. I had a chat with the guys at the Microsoft Studios stand as well, and they were very friendly and gave me a free lollipop. I mean, that might normally be a tactic to curry favour with six year olds, but it worked on me… 
+The reason I went in the first place, however, was the Careers Bar, run by [GamesIndustry.biz](http://www.gamesindustry.biz/) and [Ukie](http://ukie.org.uk/). I started off my day speaking to Creative Assembly, who were very welcoming and gave me some good advice I hadn’t heard before: namely, to create more technical C++ programmes alongside the full games I’m working on. I’m hoping that working on my final year project will give me a few opportunities to do that, and I’ve got one boids simulation ready to start. I had a chat with the guys at the Microsoft Studios stand as well, and they were very friendly and gave me a free lollipop. I mean, that might normally be a tactic to curry favour with six year olds, but it worked on me…
 
 The rest of the careers section wasn’t huge, unfortunately, and mostly consisted of game development schools. I did try one student project, but I broke it in the first thirty seconds!
 
@@ -29,7 +29,7 @@ The rest of the careers section wasn’t huge, unfortunately, and mostly consist
 
 ## Tomb Raider
 
-I must be honest here and say that I did spend a large proportion of the day queuing to indulge my inner fangirl – I spent nearly two hours waiting to play the sequel to my all-time favourite game, [Rise of the Tomb Raider](http://www.xbox.com/en-GB/games/rise-of-the-tomb-raider). And oh, was it worth it. The preview started with an explosive cutscene (literally) and I immediately noticed the improvement in graphics. Lara’s new character model thankfully doesn’t look as different to the last one as the promo pictures showed, and struck a nice balance between making her more expressive and keeping her recognisable. I loved the reintroduction of the swan dive from the older Crystal Dynamics Tomb Raider games! And I’ve got to hand it to them, Lara squeezing out her ponytail after she’d clambered out of the water was a really nice touch. I won’t say much more so as not to spoil anything, only that I _wish_ I owned an Xbox One, solely because I want to get it as soon as it’s out – I’ll unfortunately have to wait until the PC release in early 2016. 
+I must be honest here and say that I did spend a large proportion of the day queuing to indulge my inner fangirl – I spent nearly two hours waiting to play the sequel to my all-time favourite game, [Rise of the Tomb Raider](http://www.xbox.com/en-GB/games/rise-of-the-tomb-raider). And oh, was it worth it. The preview started with an explosive cutscene (literally) and I immediately noticed the improvement in graphics. Lara’s new character model thankfully doesn’t look as different to the last one as the promo pictures showed, and struck a nice balance between making her more expressive and keeping her recognisable. I loved the reintroduction of the swan dive from the older Crystal Dynamics Tomb Raider games! And I’ve got to hand it to them, Lara squeezing out her ponytail after she’d clambered out of the water was a really nice touch. I won’t say much more so as not to spoil anything, only that I _wish_ I owned an Xbox One, solely because I want to get it as soon as it’s out – I’ll unfortunately have to wait until the PC release in early 2016.
 
 ![The card I got for completing the preview. I have no idea what this is for, but it seems to be part of a set?](/assets/blog/egx2015/trcard.jpg "The card I got for completing the preview. I have no idea what this is for, but it seems to be part of a set?")
 

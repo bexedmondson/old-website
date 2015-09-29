@@ -132,6 +132,9 @@ pre {
 .page--about .page__content a::after {
   background: #cecece; }
 
+.article a::after {
+  background: #522b47; }
+
 /*.page__content .subtitle a::after {
 	background: $purple;
 }*/
@@ -496,9 +499,18 @@ pre {
   color: #4cb5ae;
   text-align: center; }
 
+.article a {
+  color: #522b47; }
+
+.article img {
+  max-height: 50vh; }
+
 .color-green {
   color: #4cb5ae; }
 
+@media (max-width: 700px) and (orientation: portrait) {
+  .article img {
+    max-height: 66.66vh; } }
 .slider {
   display: -webkit-box;
   display: -webkit-flex;

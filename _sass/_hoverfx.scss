@@ -28,6 +28,9 @@
 .page--about .page__content a::after {
 	background: $grey;
 }
+.article a::after {
+	background: $purple;
+}
 /*.page__content .subtitle a::after {
 	background: $purple;
 }*/

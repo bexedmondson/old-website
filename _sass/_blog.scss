@@ -16,6 +16,19 @@
 	}
 }
 
+.article a {
+	color: $purple;
+}
+.article img {
+	max-height: 50vh;
+}
+
 .color-green {
 	color: $green;
+}
+
+@media (max-width:700px) and (orientation: portrait) {
+	.article img {
+		max-height:66.66vh;
+	}
 }

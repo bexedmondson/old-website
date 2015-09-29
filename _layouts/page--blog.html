@@ -7,7 +7,7 @@ layout: default
     		<div class="slider__inner">
    				<h3 class="subtitle"><a href="{{ post.url | prepend: baseurl }}">{{ post.subtitle }}</a></h3>
     			<img src="{{ post.imageurl }}">
-    			{{ post.content | truncatewords:50 }}
+    			{{ post.content | truncatewords:25 }}
     			<h5>Posted {{ post.date | date: "%d-%m-%Y" }} / <a href="{{ post.url | prepend: baseurl }}" class="permalink">Permalink</a></h5>
     		</div>
     	</li>
