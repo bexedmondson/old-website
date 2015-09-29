@@ -9,8 +9,6 @@ nav: light
 imageurl: http://chrismdp.com/files/egx.png
 ---
 
-# EGX 2015
-
 Starting this blog off in spectacular fashion, here’s my wrap-up of my day at [EGX](https://www.egx.net/egx)! I travelled up all the way from Exeter to Birmingham, and it was definitely worth the six different trains I had to take (!).
 
 ![I should probably start a train photography business…](/assets/blog/egx2015/traincollage.png "I should probably start a train photography business…")
