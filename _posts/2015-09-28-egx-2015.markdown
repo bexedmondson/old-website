@@ -13,11 +13,11 @@ imageurl: http://chrismdp.com/files/egx.png
 
 Starting this blog off in spectacular fashion, here’s my wrap-up of my day at [EGX](https://www.egx.net/egx)! I travelled up all the way from Exeter to Birmingham, and it was definitely worth the six different trains I had to take (!).
 
-![I should probably start a train photography business…](/assets/posts/egx2015/traincollage.png "I should probably start a train photography business…")
+![I should probably start a train photography business…]({{site.url}}/assets/posts/egx2015/traincollage.png "I should probably start a train photography business…")
 
 First off, what an atmosphere. It was so great to be around thousands of people who loved games as much as me, and the buzz was palpable. While there was an (understandably) enormous amount of hype around the big budget studio releases like Call of Duty: Black Ops 3 and Assassin’s Creed: Syndicate, people seemed just as willing to try out all the indie games in the EGX Rezzed Zone and the Leftfield Collection. I didn’t see quite as much cosplay as at London ComicCon in August, but EGX was host to the UK Preliminaries for the European Cosplay Gathering so I saw a fair bit! 
 
-![Not pictured: four separate Lara Crofts that had just passed.](/assets/posts/egx2015/jokercrowd.jpg "Not pictured: four separate Lara Crofts that had just passed.")
+![Not pictured: four separate Lara Crofts that had just passed.]({{site.url}}/assets/posts/egx2015/jokercrowd.jpg "Not pictured: four separate Lara Crofts that had just passed.")
 
 ## Careers Bar
 
@@ -25,19 +25,19 @@ The reason I went in the first place, however, was the Careers Bar, run by [Game
 
 The rest of the careers section wasn’t huge, unfortunately, and mostly consisted of game development schools. I did try one student project, but I broke it in the first thirty seconds!
 
-![The queue for RotTR was so long I finished an entire book and still had time to take photos of the trailer.](/assets/posts/egx2015/trscreens.jpg "The queue for RotTR was so long I finished an entire book and still had time to take photos of the trailer.")
+![The queue for RotTR was so long I finished an entire book and still had time to take photos of the trailer.]({{site.url}}/assets/posts/egx2015/trscreens.jpg "The queue for RotTR was so long I finished an entire book and still had time to take photos of the trailer.")
 
 ## Tomb Raider
 
 I must be honest here and say that I did spend a large proportion of the day queuing to indulge my inner fangirl – I spent nearly two hours waiting to play the sequel to my all-time favourite game, [Rise of the Tomb Raider](http://www.xbox.com/en-GB/games/rise-of-the-tomb-raider). And oh, was it worth it. The preview started with an explosive cutscene (literally) and I immediately noticed the improvement in graphics. Lara’s new character model thankfully doesn’t look as different to the last one as the promo pictures showed, and struck a nice balance between making her more expressive and keeping her recognisable. I loved the reintroduction of the swan dive from the older Crystal Dynamics Tomb Raider games! And I’ve got to hand it to them, Lara squeezing out her ponytail after she’d clambered out of the water was a really nice touch. I won’t say much more so as not to spoil anything, only that I _wish_ I owned an Xbox One, solely because I want to get it as soon as it’s out – I’ll unfortunately have to wait until the PC release in early 2016. 
 
-![The card I got for completing the preview. I have no idea what this is for, but it seems to be part of a set?](/assets/posts/egx2015/trcard.jpg "The card I got for completing the preview. I have no idea what this is for, but it seems to be part of a set?")
+![The card I got for completing the preview. I have no idea what this is for, but it seems to be part of a set?]({{site.url}}/assets/posts/egx2015/trcard.jpg "The card I got for completing the preview. I have no idea what this is for, but it seems to be part of a set?")
 
 ## EGX Rezzed
 
 I headed out of the Tomb Raider preview over to EGX Rezzed, and got to try out the [Oculus](https://www.oculus.com/en-us/) for the first time! I was a bit wary of the hype, but it really lived up to expectations. The game on display was [Mint Games’](http://mintgames.co.uk/) VRTIGO, a rollercoaster simulator which was the most disorienting thing I’ve ever experienced, but SO much fun! The app that let you create coasters was a great idea, and if I ever get an Oculus of my own this game will be top of the list. To top off the whole experience, the guy at the stand was lovely, and when I commented on the lack of character model he told me it was because he only had a white man and wanted more diversity, which is such a rare and nice thing!
 
-![This guy was the one before me – he spent the whole time gripping onto the desk to orient himself.](/assets/posts/egx2015/oculus.jpg "This guy was the one before me – he spent the whole time gripping onto the desk to orient himself.")
+![This guy was the one before me – he spent the whole time gripping onto the desk to orient himself.]({{site.url}}/assets/posts/egx2015/oculus.jpg "This guy was the one before me – he spent the whole time gripping onto the desk to orient himself.")
 
 On the subject of diversity, I played the second instalment of Knee Deep by [Prologue Games](http://www.prologuegames.com/), a visual murder mystery novel. I was intrigued by the plot and I really liked the way they displayed the game as a piece of theatre, and the developers were really friendly. However, I was very definitely not impressed by the fact that the sole playable female character had the option to do a “silly response” for every dialogue option, which was only put in to let the player make her into the ditsy “lol i’m so rand0m!!1!” stereotype. After talking to the devs about this, they seemed to be quite proud of this, but I fail to see why a developer would be happy about giving their players an option to reduce a woman to a bland stereotype. The team was very nice overall though, and this was really the only bad point about the game.
 
