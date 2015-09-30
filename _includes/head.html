@@ -5,11 +5,11 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:url" content="http://www.bexedmondson.com" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Bex Edmondson" />
-  <meta property="og:description" content="Christian, feminist, computer science and maths student, aspiring game developer." />
-  <meta property="og:image" content="{{ '/assets/bex.png' | prepend: site.baseurl }}" />
+  <meta property="og:url" content="http://bexedmondson.com">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bex Edmondson">
+  <meta property="og:description" content="Christian, feminist, computer science and maths student, aspiring game developer.">
+  <meta property="og:image" content="{{ '/assets/bex.png' | prepend: site.baseurl }}">
 
   <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
