@@ -503,6 +503,8 @@ pre {
   color: #522b47; }
 
 .article img {
+  display: block;
+  margin: 0 auto;
   max-height: 50vh; }
 
 .color-green {
