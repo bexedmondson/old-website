@@ -5,5 +5,6 @@ categories: games
 type: games
 nav: light
 gameurl: https://github.com/bexedmondson/BoidsProject
+imageurl: /assets/games/boids.png
 ---
 Boids is an artificial life program, developed by Craig Reynolds in 1986, which simulates the flocking behaviour of birds. I'm creating this simulation to get to grips with Unreal Engine 4, and to begin research for my final-year university project.
