@@ -1,0 +1,11 @@
+---
+layout: post
+title: "blog"
+subtitle:  "Flock - My Final Year Project"
+date:  2016-05-14 22:25:12
+categories: blog
+type: blog
+nav: light
+imageurl: /assets/games/gamescreenshot.png
+---
+
