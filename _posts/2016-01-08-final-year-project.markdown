@@ -8,7 +8,7 @@ gameurl: https://github.com/bexedmondson/FinalProject
 imageurl: /assets/games/gamescreenshot.png
 ---
 [WATCH GAMEPLAY VIDEO HERE](https://www.youtube.com/watch?v=t5m0qVqrePU)
+
 [AVAILABLE FOR DOWNLOAD HERE](https://drive.google.com/folderview?id=0B5MItPVnQZsEV3ptdHVGX2xwdms&usp=sharing) 
 
-This game is my final-year university project. It contains a boid simulation controlled by the player, and the AI is controlled using the PSO algorithm.
-[MORE DETAILS HERE](/blog/2016/05/14/flock.html)
+This game is my final-year university project. It contains a boid simulation controlled by the player, and the AI is controlled using the PSO algorithm. [Click here for the full write-up.](/blog/2016/05/14/flock.html)
