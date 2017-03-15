@@ -5,7 +5,7 @@ permalink: /about/
 type: about
 ---
 
-- junior developer at [hutch games](https://www.hutchgames.com)
+- junior developer at [hutch games](http://www.hutchgames.com)
 - c#, java, python, c++
 - bsc comptuer science and maths
 - [bexedmondson@gmail.com](mailto:bexedmondson@gmail.com)
