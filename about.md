@@ -5,7 +5,7 @@ permalink: /about/
 type: about
 ---
 
-- Computer Science and Maths student
-- java, python, and c++ programmer
-- University of Exeter
+- junior developer at [hutch games](hutchgames.com)
+- c#, java, python, c++
+- bsc comptuer science and maths
 - [bexedmondson@gmail.com](mailto:bexedmondson@gmail.com)
