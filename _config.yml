@@ -13,3 +13,5 @@ linkedin_username: bexedmondson
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-cayman
